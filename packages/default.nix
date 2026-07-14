@@ -33,7 +33,6 @@ in {
   neonmodem = pkgs.callPackage ./neonmodem extraArgs;
   nix-sweep = pkgs.callPackage ./nix-sweep extraArgs;
   nixpkgs-tracker = pkgs.callPackage ./nixpkgs-tracker extraArgs;
-  obligator = pkgs.callPackage ./obligator extraArgs;
   pademelon = pkgs.callPackage ./pademelon extraArgs;
   peanutbutter = pkgs.callPackage ./peanutbutter extraArgs;
   pinenote_dbus_service = pkgs.callPackage ./pinenote_dbus_service extraArgs;
