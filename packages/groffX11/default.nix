@@ -16,11 +16,11 @@
 
 stdenv.mkDerivation rec {
   pname = "groff";
-  version = "1.23.0";
+  version = "1.24.1";
 
   src = fetchurl {
     url = "mirror://gnu/groff/${pname}-${version}.tar.gz";
-    hash = "sha256-a5dX9ZK3UYtJAutq9+VFcL3Mujeocf3bLTCuOGNRHBM=";
+    hash = "sha256-dOKBl5W2r/QxrqyYPWOpyJaO6roqLrp9+LpMe0Hnz9g=";
   };
 
   outputs = [ "out" "man" "doc" "info" "perl" ];
