@@ -1,11 +1,11 @@
 { pkgs, ... }:
 
-pkgs.perlPackages.buildPerlPackage {
+pkgs.perlPackages.buildPerlPackage rec {
   pname = "App-Music-ChordPro";
-  version = "6.070";
+  version = "6.080.1";
   src = pkgs.fetchurl {
-    url = "mirror://cpan/authors/id/J/JV/JV/App-Music-ChordPro-6.070.tar.gz";
-    hash = "sha256-j1YKVwkqJz8LAcmeHlh7kBaFGM4ZlyUHEHN5w0V6zwc=";
+    url = "mirror://cpan/authors/id/J/JV/JV/App-Music-ChordPro-${version}.tar.gz";
+    hash = "sha256-U3mmcTopMsdRTum+yJdmUuonX1uXuJ0AAitcTX8rwIY=";
   };
   propagatedBuildInputs = with pkgs.pkgs.perlPackages; [
     AppPackager
