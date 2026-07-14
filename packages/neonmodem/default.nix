@@ -1,11 +1,11 @@
-{ lib, buildGoModule, fetchFromGitHub, ... }:
+{ lib, buildGoModule, fetchFromCodeberg, ... }:
 
 buildGoModule rec {
   pname = "neonmodem";
   version = "1.0.7";
 
-  src = fetchFromGitHub {
-    owner = "mrusme";
+  src = fetchFromCodeberg {
+    owner = "mrus";
     repo = "neonmodem";
     rev = "v${version}";
     hash = "sha256-gwhQG8H1OnGQmawPQ3m6VKVooBh8rZaNr6FDl6fgZXc=";
