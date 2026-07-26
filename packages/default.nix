@@ -35,6 +35,7 @@ in {
   pinenotectl = pkgs.callPackage ./pinenotectl extraArgs;
   rapl-read = pkgs.callPackage ./rapl-read extraArgs;
   raw-to-img = pkgs.callPackage ./raw-to-img extraArgs;
+  rstrict = pkgs.callPackage ./rstrict extraArgs;
   typstPackagesAll = pkgs.callPackage ./typst-packages extraArgs;  # see also typstPackages output
   typstPackagesSrc = pkgs.callPackage ./typst-packages/source.nix extraArgs;  # extra package for use in update-packages.sh
   smlnj-rlwrapped =  pkgs.callPackage ./smlnj-rlwrapped extraArgs;
