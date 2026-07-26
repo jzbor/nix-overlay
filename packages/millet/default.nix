@@ -2,7 +2,7 @@
 
 let
   pname = "millet";
-  version =  "0.14.7";
+  version =  "0.15.2";
   meta = with lib; {
     description = "A language server for Standard ML.";
     homepage = "https://github.com/azdavis/millet";
@@ -19,7 +19,7 @@ let
       owner = "azdavis";
       repo = pname;
       rev = "v" + version;
-      sha256 = "sha256-nj/ueMQSAqdcAG5jaSZBOHd4D4l7xD3i+LO9MUYsz0c=";
+      sha256 = "sha256-MHAvurglG26nRvvAknqZPROSICI/ttQm0MLPsoQyw2Y=";
     };
 
     patches = [ ./cargo-config.patch ];

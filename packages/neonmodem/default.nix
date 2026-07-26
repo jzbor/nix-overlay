@@ -1,16 +1,16 @@
-{ lib, buildGoModule, fetchFromGitHub, ... }:
+{ lib, buildGoModule, fetchFromCodeberg, ... }:
 
 buildGoModule rec {
   pname = "neonmodem";
-  version = "1.0.6";
+  version = "1.0.7";
 
-  src = fetchFromGitHub {
-    owner = "mrusme";
+  src = fetchFromCodeberg {
+    owner = "mrus";
     repo = "neonmodem";
     rev = "v${version}";
-    hash = "sha256-VLR6eicffA0IXVwEZMvgpm1kVmrLYVZOtq7MSy+vIw8=";
+    hash = "sha256-gwhQG8H1OnGQmawPQ3m6VKVooBh8rZaNr6FDl6fgZXc=";
   };
-  vendorHash = "sha256-pESNARoUgfg5/cTlTvKF3i7dTMIu0gRG/oV4Ov6h2cY=";
+  vendorHash = "sha256-zqQtuyFrsDB1xRdl4cbaTsCawMrBvcu78zXgU2jUwHI=";
 
   meta = with lib; {
     description = "Neon Modem Overdrive";

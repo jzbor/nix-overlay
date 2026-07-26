@@ -10,15 +10,20 @@ in {
   adi1090x-plymouth = pkgs.callPackage ./adi1090x-plymouth extraArgs;
   aoc-cli = pkgs.callPackage ./aoc-cli extraArgs;
   buttermilk = pkgs.callPackage ./buttermilk extraArgs;
+  chainsaw = pkgs.callPackage ./chainsaw extraArgs;
   chimerautils = pkgs.callPackage ./chimerautils extraArgs;
   chordpro = pkgs.callPackage ./chordpro extraArgs;
   cliflux = pkgs.callPackage ./cliflux extraArgs;
   decap_oauth = pkgs.callPackage ./decap_oauth extraArgs;
   erth-exporter = pkgs.callPackage ./erth-exporter extraArgs;
   everforest-gtk-theme = pkgs.callPackage ./everforest-gtk-theme extraArgs;
+  evtViewer = pkgs.callPackage ./evtViewer extraArgs;
+  evtx = pkgs.callPackage ./evtx extraArgs;
   foliot = pkgs.callPackage ./foliot extraArgs;
   gama = pkgs.callPackage ./gama extraArgs;
   groffX11 = pkgs.callPackage ./groffX11 extraArgs;
+  hindsight = pkgs.callPackage ./hindsight extraArgs;
+  intel-lpmd = pkgs.callPackage ./intel-lpmd extraArgs;
   kanagawa-gtk-theme = pkgs.callPackage ./kanagawa-gtk-theme extraArgs;
   lash = inputs.lash.packages.${system}.default;
   lisho = pkgs.callPackage ./lisho extraArgs;
@@ -28,11 +33,11 @@ in {
   neonmodem = pkgs.callPackage ./neonmodem extraArgs;
   nix-sweep = pkgs.callPackage ./nix-sweep extraArgs;
   nixpkgs-tracker = pkgs.callPackage ./nixpkgs-tracker extraArgs;
-  obligator = pkgs.callPackage ./obligator extraArgs;
   pademelon = pkgs.callPackage ./pademelon extraArgs;
   peanutbutter = pkgs.callPackage ./peanutbutter extraArgs;
   pinenote_dbus_service = pkgs.callPackage ./pinenote_dbus_service extraArgs;
   pinenotectl = pkgs.callPackage ./pinenotectl extraArgs;
+  qman = pkgs.callPackage ./qman extraArgs;
   rapl-read = pkgs.callPackage ./rapl-read extraArgs;
   raw-to-img = pkgs.callPackage ./raw-to-img extraArgs;
   rstrict = pkgs.callPackage ./rstrict extraArgs;
@@ -42,6 +47,5 @@ in {
   smlnj-rlwrapped =  pkgs.callPackage ./smlnj-rlwrapped extraArgs;
   vis-unstable = pkgs.callPackage ./vis-unstable extraArgs;
   vlc-dvd = pkgs.callPackage ./vlc-dvd extraArgs;
-  zizmor = pkgs.callPackage ./zizmor extraArgs;
 }
 

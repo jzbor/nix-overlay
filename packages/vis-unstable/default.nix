@@ -20,11 +20,11 @@ let
 in
 stdenv.mkDerivation rec {
   pname = "vis";
-  version = "unstable";
+  version = "unstable-2026-07-13";
 
   src = fetchFromGitHub {
-    rev = "8cdf93ef29432c4e639d0d6398e28071ca5da609";
-    hash = "sha256-ceco/CDpLaPeSE6+M/k3itrl3oe19L3BL2EF330IZVU=";
+    rev = "8302c8e1bc9583f2cc8a4ba8d724e5f5462b9b99";
+    hash = "sha256-9kMvhXA2QuUxA8wNj/9JVXXIINSzk7ozGPwHCfdZt6M=";
     repo = "vis";
     owner = "martanne";
   };

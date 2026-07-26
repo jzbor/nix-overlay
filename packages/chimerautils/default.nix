@@ -2,13 +2,13 @@
 
 pkgs.clangStdenv.mkDerivation rec {
   pname = "chimerautils";
-  version = "14.3.1";
+  version = "15.0.3";
 
   src = pkgs.fetchFromGitHub {
     owner = "chimera-linux";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-gTwUa0M/uit9zoEhdspaOrbvHXZ+vn2wlMmqxFNMuoM=";
+    sha256 = "sha256-/HYLZSFj0hwMvIUw/qwmjecezuzdVZ+UoFm8d7p6ysY=";
   };
 
   patches = [ ./patch-1.diff ];

@@ -2,7 +2,7 @@
 
 stdenvNoCC.mkDerivation rec {
   pname = "everforest-gtk-theme";
-  version = "";
+  version = "unstable";
 
   src = fetchFromGitHub {
     owner = "Fausto-Korpsvart";
